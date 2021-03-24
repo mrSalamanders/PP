@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010A2591257E43D2008D51A8 /* PriceTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010A2590257E43D2008D51A8 /* PriceTableView.swift */; };
+		010A2595257E4908008D51A8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010A2594257E4908008D51A8 /* NetworkManager.swift */; };
+		010A2599257E4951008D51A8 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010A2598257E4951008D51A8 /* PostData.swift */; };
+		010FC5542579813B006C0B58 /* AutobestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010FC5532579813B006C0B58 /* AutobestApp.swift */; };
+		010FC5582579813E006C0B58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 010FC5572579813E006C0B58 /* Assets.xcassets */; };
+		010FC55B2579813E006C0B58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 010FC55A2579813E006C0B58 /* Preview Assets.xcassets */; };
+		010FC5802579863A006C0B58 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 010FC57F2579863A006C0B58 /* GoogleService-Info.plist */; };
+		01103B8525890D47007BB7F9 /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01103B8425890D47007BB7F9 /* AnalyticsView.swift */; };
+		0134FABE2586439100B65F85 /* DetailTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0134FABD2586439100B65F85 /* DetailTableView.swift */; };
+		0134FAC22586574D00B65F85 /* EmployeeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0134FAC12586574D00B65F85 /* EmployeeTableView.swift */; };
+		015ACAB025878A7500FCDDEF /* OrderTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015ACAAF25878A7500FCDDEF /* OrderTableView.swift */; };
+		01887D2D25868590008ECBD7 /* ClientTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01887D2C25868590008ECBD7 /* ClientTableView.swift */; };
+		01D11700257A571800ADD8AF /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D116FF257A571800ADD8AF /* SidebarView.swift */; };
+		01D11705257A777800ADD8AF /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D11704257A777800ADD8AF /* AuthView.swift */; };
+		42D90564DF8D2031A34B6804 /* Pods_Autobest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E444A119C2D542685342DA7 /* Pods_Autobest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		010A2590257E43D2008D51A8 /* PriceTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceTableView.swift; sourceTree = "<group>"; };
+		010A2594257E4908008D51A8 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		010A2598257E4951008D51A8 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		010FC5502579813B006C0B58 /* Autobest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Autobest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		010FC5532579813B006C0B58 /* AutobestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutobestApp.swift; sourceTree = "<group>"; };
+		010FC5572579813E006C0B58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		010FC55A2579813E006C0B58 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		010FC55C2579813E006C0B58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		010FC55D2579813E006C0B58 /* Autobest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Autobest.entitlements; sourceTree = "<group>"; };
+		010FC57F2579863A006C0B58 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		01103B8425890D47007BB7F9 /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
+		0134FABD2586439100B65F85 /* DetailTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableView.swift; sourceTree = "<group>"; };
+		0134FAC12586574D00B65F85 /* EmployeeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeTableView.swift; sourceTree = "<group>"; };
+		015ACAAF25878A7500FCDDEF /* OrderTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableView.swift; sourceTree = "<group>"; };
+		01887D2C25868590008ECBD7 /* ClientTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientTableView.swift; sourceTree = "<group>"; };
+		01D116FF257A571800ADD8AF /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		01D11704257A777800ADD8AF /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		3E444A119C2D542685342DA7 /* Pods_Autobest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Autobest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A564C96AAB2B72FCA695399 /* Pods-Autobest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Autobest.release.xcconfig"; path = "Target Support Files/Pods-Autobest/Pods-Autobest.release.xcconfig"; sourceTree = "<group>"; };
+		633446B8F3BE5799ECA298EF /* Pods-Autobest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Autobest.debug.xcconfig"; path = "Target Support Files/Pods-Autobest/Pods-Autobest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		010FC54D2579813B006C0B58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D90564DF8D2031A34B6804 /* Pods_Autobest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		010FC5472579813B006C0B58 = {
+			isa = PBXGroup;
+			children = (
+				010FC5522579813B006C0B58 /* Autobest */,
+				010FC5512579813B006C0B58 /* Products */,
+				D60DCBA40C13E108ECAB9E5D /* Pods */,
+				1AE00ACB5CC4A67B8028910E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		010FC5512579813B006C0B58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				010FC5502579813B006C0B58 /* Autobest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		010FC5522579813B006C0B58 /* Autobest */ = {
+			isa = PBXGroup;
+			children = (
+				010A2594257E4908008D51A8 /* NetworkManager.swift */,
+				010A2598257E4951008D51A8 /* PostData.swift */,
+				010FC5532579813B006C0B58 /* AutobestApp.swift */,
+				01D116FF257A571800ADD8AF /* SidebarView.swift */,
+				01D11704257A777800ADD8AF /* AuthView.swift */,
+				010A2590257E43D2008D51A8 /* PriceTableView.swift */,
+				0134FAC12586574D00B65F85 /* EmployeeTableView.swift */,
+				0134FABD2586439100B65F85 /* DetailTableView.swift */,
+				01887D2C25868590008ECBD7 /* ClientTableView.swift */,
+				015ACAAF25878A7500FCDDEF /* OrderTableView.swift */,
+				01103B8425890D47007BB7F9 /* AnalyticsView.swift */,
+				010FC5572579813E006C0B58 /* Assets.xcassets */,
+				010FC55C2579813E006C0B58 /* Info.plist */,
+				010FC57F2579863A006C0B58 /* GoogleService-Info.plist */,
+				010FC55D2579813E006C0B58 /* Autobest.entitlements */,
+				010FC5592579813E006C0B58 /* Preview Content */,
+			);
+			path = Autobest;
+			sourceTree = "<group>";
+		};
+		010FC5592579813E006C0B58 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				010FC55A2579813E006C0B58 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1AE00ACB5CC4A67B8028910E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E444A119C2D542685342DA7 /* Pods_Autobest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D60DCBA40C13E108ECAB9E5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				633446B8F3BE5799ECA298EF /* Pods-Autobest.debug.xcconfig */,
+				5A564C96AAB2B72FCA695399 /* Pods-Autobest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		010FC54F2579813B006C0B58 /* Autobest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 010FC5602579813E006C0B58 /* Build configuration list for PBXNativeTarget "Autobest" */;
+			buildPhases = (
+				FAE2C434E1D2AFB8F4390228 /* [CP] Check Pods Manifest.lock */,
+				010FC54C2579813B006C0B58 /* Sources */,
+				010FC54D2579813B006C0B58 /* Frameworks */,
+				010FC54E2579813B006C0B58 /* Resources */,
+				32B27DB6AF1B7C9C9ACB0D39 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Autobest;
+			productName = Autobest;
+			productReference = 010FC5502579813B006C0B58 /* Autobest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		010FC5482579813B006C0B58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					010FC54F2579813B006C0B58 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 010FC54B2579813B006C0B58 /* Build configuration list for PBXProject "Autobest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 010FC5472579813B006C0B58;
+			productRefGroup = 010FC5512579813B006C0B58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				010FC54F2579813B006C0B58 /* Autobest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		010FC54E2579813B006C0B58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010FC55B2579813E006C0B58 /* Preview Assets.xcassets in Resources */,
+				010FC5582579813E006C0B58 /* Assets.xcassets in Resources */,
+				010FC5802579863A006C0B58 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32B27DB6AF1B7C9C9ACB0D39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Autobest/Pods-Autobest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Autobest/Pods-Autobest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Autobest/Pods-Autobest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAE2C434E1D2AFB8F4390228 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Autobest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		010FC54C2579813B006C0B58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010FC5542579813B006C0B58 /* AutobestApp.swift in Sources */,
+				01887D2D25868590008ECBD7 /* ClientTableView.swift in Sources */,
+				0134FAC22586574D00B65F85 /* EmployeeTableView.swift in Sources */,
+				010A2595257E4908008D51A8 /* NetworkManager.swift in Sources */,
+				010A2591257E43D2008D51A8 /* PriceTableView.swift in Sources */,
+				01103B8525890D47007BB7F9 /* AnalyticsView.swift in Sources */,
+				01D11705257A777800ADD8AF /* AuthView.swift in Sources */,
+				010A2599257E4951008D51A8 /* PostData.swift in Sources */,
+				015ACAB025878A7500FCDDEF /* OrderTableView.swift in Sources */,
+				0134FABE2586439100B65F85 /* DetailTableView.swift in Sources */,
+				01D11700257A571800ADD8AF /* SidebarView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		010FC55E2579813E006C0B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		010FC55F2579813E006C0B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		010FC5612579813E006C0B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 633446B8F3BE5799ECA298EF /* Pods-Autobest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Autobest/Autobest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Autobest/Preview Content\"";
+				DEVELOPMENT_TEAM = 896V76Y4GV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Autobest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.autobest.Autobest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		010FC5622579813E006C0B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A564C96AAB2B72FCA695399 /* Pods-Autobest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Autobest/Autobest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Autobest/Preview Content\"";
+				DEVELOPMENT_TEAM = 896V76Y4GV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Autobest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.autobest.Autobest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		010FC54B2579813B006C0B58 /* Build configuration list for PBXProject "Autobest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010FC55E2579813E006C0B58 /* Debug */,
+				010FC55F2579813E006C0B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		010FC5602579813E006C0B58 /* Build configuration list for PBXNativeTarget "Autobest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010FC5612579813E006C0B58 /* Debug */,
+				010FC5622579813E006C0B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 010FC5482579813B006C0B58 /* Project object */;
+}
